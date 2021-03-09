@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicatesLangDialects", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexerPredicatesLangDialects", "LexerPredicatesLangDialects\LexerPredicatesLangDialects.csproj", "{906D8685-4820-426C-8D96-A6ED4CF2D616}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangDialectsNoPredicates", "LangDialectsNoPredicates\LangDialectsNoPredicates.csproj", "{2E9BB26D-F921-4613-8FBC-4F26CC2E4CCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{906D8685-4820-426C-8D96-A6ED4CF2D616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906D8685-4820-426C-8D96-A6ED4CF2D616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906D8685-4820-426C-8D96-A6ED4CF2D616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9BB26D-F921-4613-8FBC-4F26CC2E4CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9BB26D-F921-4613-8FBC-4F26CC2E4CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9BB26D-F921-4613-8FBC-4F26CC2E4CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9BB26D-F921-4613-8FBC-4F26CC2E4CCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
