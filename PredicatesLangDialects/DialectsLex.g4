@@ -13,7 +13,8 @@ INT : [0-9]+;
 
 // Unfortunately an against all rules . matched even the \n
 // that's why in must be supplemented with ? non-greedy operator
-COMMENTS : '//'.*?'\r'?'\n' ->skip;
+// EOF is required to handle comments immediatelly preceding the end of file
+COMMENTS : '//'.*? ('\r'?'\n'| EOF) ->skip;
 
 WS	: [ \t\n\r]+ -> skip
 	;
